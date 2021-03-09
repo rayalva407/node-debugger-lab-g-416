@@ -27,6 +27,6 @@ module.exports = function() {
 
   openAccount(customerAccount, deposit)
   setAccountType()
-  output['Account after opening'] = helloworld
+  output['Account after opening'] = customerAccount
   return output
 }
